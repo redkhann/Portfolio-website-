@@ -1,0 +1,1 @@
+export function Button({ children, className = '', variant = 'solid' }) { return <button className={`px-4 py-2 rounded ${variant === 'outline' ? 'border border-blue-500 text-blue-500' : 'bg-blue-500 text-white'} ${className}`}>{children}</button>; }
