@@ -16,7 +16,7 @@ export default function Portfolio() {
   };
 
   return (
-    <div className={\`\${darkMode ? "bg-gray-900 text-white" : "bg-gradient-to-b from-white to-blue-50 text-gray-800"} min-h-screen p-6 transition-all duration-500\`}>
+    <div className={`${darkMode ? "bg-gray-900 text-white" : "bg-gradient-to-b from-white to-blue-50 text-gray-800"} min-h-screen p-6 transition-all duration-500`}>
       <header className="text-center py-8">
         <motion.h1 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-5xl font-bold">
           Mohd Rehan Khan
